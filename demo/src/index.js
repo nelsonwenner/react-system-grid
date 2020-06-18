@@ -1,9 +1,12 @@
-import React from 'react'
-import { render } from 'react-dom'
+import React from 'react';
+import { render } from 'react-dom';
+import { Container } from '../../src';
 
 const Demo = () => {
   return (
-    <h1>Hello World</h1>
+    <Container>
+      Hello World
+    </Container>
   )
 }
 

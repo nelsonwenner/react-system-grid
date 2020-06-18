@@ -12,7 +12,8 @@
   ],
   "scripts": {
     "build": "nwb build-react-component",
-    "start": "nwb serve-react-demo"
+    "start": "nwb serve-react-demo",
+    "publish-package": "npm publish --access=public"
   },
   "repository": {
     "type": "git",
