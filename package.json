@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "react-system-grid React component",
   "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
   "scripts": {
     "build": "nwb build-react-component",
     "start": "nwb serve-react-demo"
