@@ -1,4 +1,4 @@
-demo
-src
+src/
+demo/
 *.js
 package-lock.json
