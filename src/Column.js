@@ -40,7 +40,7 @@ const buildCss = (types, cols, keysTypes, breakpoints, flag, template=``) => {
   return template;
 }
 
-Column.PropTypes = {
+Column.propTypes = {
   xlarge: PropTypes.number,
   large: PropTypes.number,
   medium: PropTypes.number,
